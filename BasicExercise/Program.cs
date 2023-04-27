@@ -15,6 +15,7 @@ namespace BasicExercise
             Console.WriteLine("3 : All Odd Number From 1 to 99");
             Console.WriteLine("4 : Sum Of First 500 Prime Number");
             Console.WriteLine("5 : String Reverse Fully");
+            Console.WriteLine("6 : Multiply Two Array");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -38,6 +39,10 @@ namespace BasicExercise
                 case 5:
                     stringReverse stringReverse = new stringReverse();
                     stringReverse.Number();
+                    break;
+                case 6:
+                    MultiplyTwoArray multiplyTwoArray = new MultiplyTwoArray();
+                    multiplyTwoArray.Numbers(); 
                     break;
             }
             Console.ReadLine();

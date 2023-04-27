@@ -46,6 +46,7 @@
     <Compile Include="CheckSum.cs" />
     <Compile Include="GivenString.cs" />
     <Compile Include="LongWord.cs" />
+    <Compile Include="MultiplyTwoArray.cs" />
     <Compile Include="PrimeNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
