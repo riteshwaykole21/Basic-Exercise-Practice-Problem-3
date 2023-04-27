@@ -17,6 +17,7 @@ namespace BasicExercise
             Console.WriteLine("5 : String Reverse Fully");
             Console.WriteLine("6 : Multiply Two Array");
             Console.WriteLine("7 : String Problem");
+            Console.WriteLine("8 : Multiply By 3 & 7");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -48,6 +49,10 @@ namespace BasicExercise
                 case 7:
                     stringProblem stringProblem = new stringProblem();
                     stringProblem.Numbers();
+                    break;
+                case 8:
+                    MultiplyBy3Or7 multiplyBy3Or7 = new MultiplyBy3Or7();
+                    multiplyBy3Or7.Number();
                     break;
             }
             Console.ReadLine();
