@@ -16,6 +16,7 @@ namespace BasicExercise
             Console.WriteLine("4 : Sum Of First 500 Prime Number");
             Console.WriteLine("5 : String Reverse Fully");
             Console.WriteLine("6 : Multiply Two Array");
+            Console.WriteLine("7 : String Problem");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -43,6 +44,10 @@ namespace BasicExercise
                 case 6:
                     MultiplyTwoArray multiplyTwoArray = new MultiplyTwoArray();
                     multiplyTwoArray.Numbers(); 
+                    break;
+                case 7:
+                    stringProblem stringProblem = new stringProblem();
+                    stringProblem.Numbers();
                     break;
             }
             Console.ReadLine();
