@@ -18,6 +18,7 @@ namespace BasicExercise
             Console.WriteLine("6 : Multiply Two Array");
             Console.WriteLine("7 : String Problem");
             Console.WriteLine("8 : Multiply By 3 & 7");
+            Console.WriteLine("9 : Check String Start With Specific Word ");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -53,6 +54,10 @@ namespace BasicExercise
                 case 8:
                     MultiplyBy3Or7 multiplyBy3Or7 = new MultiplyBy3Or7();
                     multiplyBy3Or7.Number();
+                    break;
+                case 9:
+                    CheckString check = new CheckString();
+                    check.Numbers();
                     break;
             }
             Console.ReadLine();
