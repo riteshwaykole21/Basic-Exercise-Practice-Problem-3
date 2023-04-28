@@ -19,6 +19,7 @@ namespace BasicExercise
             Console.WriteLine("7 : String Problem");
             Console.WriteLine("8 : Multiply By 3 & 7");
             Console.WriteLine("9 : Check String Start With Specific Word ");
+            Console.WriteLine("10 : Greater Than Less Than Program");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -58,6 +59,10 @@ namespace BasicExercise
                 case 9:
                     CheckString check = new CheckString();
                     check.Numbers();
+                    break;
+                case 10:
+                    GreaterAndLess greaterAndLess = new GreaterAndLess();
+                    greaterAndLess.Number();
                     break;
             }
             Console.ReadLine();

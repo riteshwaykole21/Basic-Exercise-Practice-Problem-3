@@ -46,6 +46,7 @@
     <Compile Include="CheckString.cs" />
     <Compile Include="CheckSum.cs" />
     <Compile Include="GivenString.cs" />
+    <Compile Include="GreaterAndLess.cs" />
     <Compile Include="LongWord.cs" />
     <Compile Include="MultiplyBy3Or7.cs" />
     <Compile Include="MultiplyTwoArray.cs" />
