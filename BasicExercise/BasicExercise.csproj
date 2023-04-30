@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckIntegers.cs" />
     <Compile Include="CheckString.cs" />
     <Compile Include="CheckSum.cs" />
     <Compile Include="GivenString.cs" />

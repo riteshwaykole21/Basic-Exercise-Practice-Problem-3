@@ -20,6 +20,7 @@ namespace BasicExercise
             Console.WriteLine("8 : Multiply By 3 & 7");
             Console.WriteLine("9 : Check String Start With Specific Word ");
             Console.WriteLine("10 : Greater Than Less Than Program");
+            Console.WriteLine("11 : Check An Integer");
             Console.WriteLine("Enter The Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -63,6 +64,10 @@ namespace BasicExercise
                 case 10:
                     GreaterAndLess greaterAndLess = new GreaterAndLess();
                     greaterAndLess.Number();
+                    break;
+                case 11:
+                    CheckIntegers checkIntegers = new CheckIntegers();
+                    checkIntegers.Numbers();    
                     break;
             }
             Console.ReadLine();
